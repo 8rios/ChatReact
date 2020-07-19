@@ -1,0 +1,90 @@
+.App {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.form {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.form input {
+  flex: 1;
+}
+
+.form button {
+  width: 100px;
+}
+
+.login {
+  display: 'flex';
+  text-align: center;
+  padding-top: 60px;
+}
+
+.messagelist {
+  margin: 0;
+  color: rgb(116, 116, 116);
+  list-style-type: none;
+  font-size: 12px;
+  padding: 20px; 
+  padding-bottom: 100px;
+}
+
+.cardMensaje {
+  width: 100%;
+  background-color: aliceblue;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.boton {
+  background: rgb(107, 1, 1);
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+  outline: none !important;
+  outline-offset: none !important;
+  cursor: pointer;
+}
+
+.btnEnviar {
+  background: rgb(56, 107, 184);
+  border: none;
+  color: white;
+  outline: none !important;
+  outline-offset: none !important;
+  cursor: pointer;
+}
+
+.botonlogin {
+  background: rgb(56, 107, 184);
+  border: none;
+  color: white;
+  margin-top: 20px;
+  outline: none !important;
+  outline-offset: none !important;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+}
+
+.texto {
+  margin: 0;
+  padding: 0;
+  color: #686868;
+  font-weight: bold;
+  font-weight: 0;
+  font-size: 20px;
+}
+
+.messagelist li {
+  display: flex;
+  align-items: center;
+}
